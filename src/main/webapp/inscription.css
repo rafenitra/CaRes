@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	height: 100%
+}
+
+#carBg {
+	width: 100%;
+	height: 100%;
+}
+
+#bgFilter {
+	background-color: white;
+	opacity:0;
+	position: absolute;
+}
+
+form {
+	width: 450px;
+	margin-top: 4%;
+	margin-left: 37%;
+	padding:30px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+form > div {
+	margin-top: 20px;
+}
+
