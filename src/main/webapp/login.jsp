@@ -41,7 +41,7 @@
 								<a href="/test/inscription" class="btn btn-tertiary stretched-link" data-mdb-ripple-color="light">
 									Créer un compte
 								</a> 
-								<a class="btn btn-tertiary stretched-link" data-mdb-ripple-color="light">Mot de passe oublié</a>
+								<a href="/test/home" class="btn btn-tertiary stretched-link" data-mdb-ripple-color="light">Mot de passe oublié</a>
 							</div>
 						</div>
 					</div>
