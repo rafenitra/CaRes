@@ -31,4 +31,13 @@
 		<servlet-name>Home</servlet-name>
 		<url-pattern>/home</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Promotion</servlet-name>
+		<servlet-class>com.tb.servlets.Promotion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Promotion</servlet-name>
+		<url-pattern>/promotions</url-pattern>
+	</servlet-mapping>
 </web-app>

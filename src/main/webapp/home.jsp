@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
 	<link rel="stylesheet" type="text/css" href="./MDB5/css/mdb.min.css">
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="./home.css">
 </head>
 <body>
 	<!-- Navbar -->
@@ -155,12 +155,13 @@
 	  </div>
 	
 	  <!-- Inner -->
-	  <div class="carousel-inner">
+	  <div class="carousel-inner mt-5 h-30">
 	    <!-- Single item -->
 	    <div class="carousel-item active">
 	      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="Sunset Over the City"/>
 	      <div class="carousel-caption d-none d-md-block">
 	        <h5>First slide label</h5>
+	        <a><button class="btn btn-primary">Plus d'information</button> </a>
 	        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 	      </div>
 	    </div>
@@ -170,6 +171,7 @@
 	      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
 	      <div class="carousel-caption d-none d-md-block">
 	        <h5>Second slide label</h5>
+	        <a><button class="btn btn-primary">Plus d'information</button> </a>
 	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 	      </div>
 	    </div>
@@ -179,6 +181,7 @@
 	      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
 	      <div class="carousel-caption d-none d-md-block">
 	        <h5>Third slide label</h5>
+	        <a><button class="btn btn-primary">Plus d'information</button> </a>
 	        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
 	      </div>
 	    </div>
@@ -196,19 +199,23 @@
 	  </button>
 	</div>
 	<!-- Carousel wrapper -->
-	<div class="container-fluid mt-5 mb-5">
+	<div class="container mt-5 mb-5">
 		<div class="row">
 			<div class="col-md-3">					
-				<div class="card" style="width: 18rem;">
-				  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
-				  <div class="card-body">
-				  	<a href="#" class="card-link">PROMOTIONS</a>
-				  </div>
-				</div>
+				<a>
+					<button class="btn btn-tertiary">
+						<div class="card" style="width: 18rem;">
+						  <img src="./img/promotion.png" class="card-img-top w-50" alt="Sunset Over the Sea"/>
+						  <div class="card-body">
+						  	<a href="/test/promotions" class="card-link">PROMOTIONS</a>
+						  </div>
+						</div>
+					</button>
+				</a>
 			</div>
 			<div class="col-md-3">					
 				<div class="card" style="width: 18rem;">
-				  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
+				  <img src="./img/booking.png" class="card-img-top w-50 tada" alt="Sunset Over the Sea"/>
 				  <div class="card-body">
 				  	<a href="#" class="card-link">RÉSERVEZ-VOUS</a>
 				  </div>
@@ -216,7 +223,7 @@
 			</div>
 			<div class="col-md-3">					
 				<div class="card" style="width: 18rem;">
-				  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
+				  <img src="./img/bus.png" class="card-img-top w-50" alt="Sunset Over the Sea"/>
 				  <div class="card-body">
 				  	<a href="#" class="card-link">COOPÉRATIVES</a>
 				  </div>
@@ -224,7 +231,7 @@
 			</div>
 			<div class="col-md-3">					
 				<div class="card" style="width: 18rem;">
-				  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
+				  <img src="./img/document.png" class="card-img-top w-50" alt="Sunset Over the Sea"/>
 				  <div class="card-body">
 				  	<a href="#" class="card-link">HISTORIQUES</a>
 				  </div>
@@ -234,4 +241,7 @@
 	</div>
 <script type="text/javascript" src="./MDB5/js/mdb.min.js"></script>
 </body>
+<footer id="theFoot">
+	<p>Copyright 2023</p>
+</footer>
 </html>
