@@ -40,4 +40,13 @@
 		<servlet-name>Promotion</servlet-name>
 		<url-pattern>/promotions</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Reservation</servlet-name>
+		<servlet-class>com.tb.servlets.Reservation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Reservation</servlet-name>
+		<url-pattern>/reservation</url-pattern>
+	</servlet-mapping>
 </web-app>
