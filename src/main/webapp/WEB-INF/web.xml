@@ -49,4 +49,13 @@
 		<servlet-name>Reservation</servlet-name>
 		<url-pattern>/reservation</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Cooperative</servlet-name>
+		<servlet-class>com.tb.servlets.Cooperative</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cooperative</servlet-name>
+		<url-pattern>/cooperatives</url-pattern>
+	</servlet-mapping>
 </web-app>
