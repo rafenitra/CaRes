@@ -17,9 +17,12 @@ body {
 	background-color: white;
 	opacity:0;
 	position: absolute;
+	z-index: 0.1;
 }
 
 form {
+	position:absolute;
+	z-index: 1;
 	width: 450px;
 	margin-top: 4%;
 	margin-left: 37%;

@@ -4,35 +4,26 @@
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
 	<link rel="stylesheet" type="text/css" href="./MDB5/css/mdb.min.css">
-	<link rel="stylesheet" type="text/css" href="./promotion.css">
+	<link rel="stylesheet" type="text/css" href="./history.css">
 </head>
 <body>
 	<!-- Navbar -->
 	<%@ include file="navbar.jsp" %>
 	<!-- Navbar -->
-	<div class="container mt-5 pt-5">
-		<div class="row">
-		 	<div class="col-md-3"></div>
-		 	<div class="col-md-6">
-		 		<div class="input-group">
-				  <div class="form-outline">
-				    <input id="search-input" type="search" id="form1" class="form-control" />
-				    <label class="form-label" for="form1">Recherche</label>
-				  </div>
-				  <button id="search-button" type="button" class="btn btn-primary">
-				    Rechercher
-				  </button>
-				</div>
-		 	</div>
-		 	<div class="col-md-3"></div>
+	<div class="container pt-5">
+		<div class="row pt-5">
+			<div class="col-md-3"></div>
+			<div class="col-md-6 d-flex justify-content-center">
+				<h3>Historique de toutes vos réservations</h3>
+			</div>
 		</div>
 	</div>
-	<div class="container mt-5 pt-5">
+	<div class="container pt-5">
 		<div class="row">
 		 	<div class="col-md-3"></div>
 		 	<div class="col-md-6">
 		 		<ul class="list-group list-group-light">
-				  <li class="list-group-item d-flex justify-content-between align-items-center">
+				  <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-action px-3 border-0 rounded-3 mb-2 list-group-item-warning">
 				    <div class="d-flex align-items-center">
 				      <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" alt="" style="width: 45px; height: 45px"
 				        class="rounded-circle" />
@@ -43,7 +34,7 @@
 				    </div>
 				    <button class="btn btn-link btn-rounded btn-sm" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Details</button>
 				  </li>
-				  <li class="list-group-item d-flex justify-content-between align-items-center">
+				  <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-action px-3 border-0 rounded-3 mb-2 list-group-item-success">
 				    <div class="d-flex align-items-center">
 				      <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="rounded-circle" alt=""
 				        style="width: 45px; height: 45px" />
@@ -54,7 +45,7 @@
 				    </div>
 				    <a class="btn btn-link btn-rounded btn-sm" href="#" role="button">Details</a>
 				  </li>
-				  <li class="list-group-item d-flex justify-content-between align-items-center">
+				  <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-action px-3 border-0 rounded-3 mb-2 list-group-item-danger">
 				    <div class="d-flex align-items-center">
 				      <img src="https://mdbootstrap.com/img/new/avatars/7.jpg" class="rounded-circle" alt=""
 				        style="width: 45px; height: 45px" />
@@ -66,7 +57,7 @@
 				
 				    <a class="btn btn-link btn-rounded btn-sm" href="#" role="button">Details</a>
 				  </li>
-				  <li class="list-group-item d-flex justify-content-between align-items-center">
+				  <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-action px-3 border-0 rounded-3 mb-2 list-group-item-success">
 				    <div class="d-flex align-items-center">
 				      <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" alt="" style="width: 45px; height: 45px"
 				        class="rounded-circle" />
@@ -77,7 +68,7 @@
 				    </div>
 				    <a class="btn btn-link btn-rounded btn-sm" href="#" role="button">Details</a>
 				  </li>
-				  <li class="list-group-item d-flex justify-content-between align-items-center">
+				  <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-action px-3 border-0 rounded-3 mb-2 list-group-item-danger">
 				    <div class="d-flex align-items-center">
 				      <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="rounded-circle" alt=""
 				        style="width: 45px; height: 45px" />
@@ -88,7 +79,7 @@
 				    </div>
 				    <a class="btn btn-link btn-rounded btn-sm" href="#" role="button">Details</a>
 				  </li>
-				  <li class="list-group-item d-flex justify-content-between align-items-center">
+				  <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-action px-3 border-0 rounded-3 mb-2 list-group-item-success">
 				    <div class="d-flex align-items-center">
 				      <img src="https://mdbootstrap.com/img/new/avatars/7.jpg" class="rounded-circle" alt=""
 				        style="width: 45px; height: 45px" />

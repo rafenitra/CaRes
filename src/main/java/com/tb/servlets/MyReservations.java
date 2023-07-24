@@ -7,16 +7,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/Cooperative")
-public class Cooperative extends HttpServlet {
+@WebServlet("/MyReservations")
+public class MyReservations extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-    public Cooperative() {
+    public MyReservations() {
         super();
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		this.getServletContext().getRequestDispatcher("/cooperative.jsp").forward(request, response);
+		this.getServletContext().getRequestDispatcher("/myreservations.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

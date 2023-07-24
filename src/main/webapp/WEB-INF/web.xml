@@ -5,6 +5,7 @@
 	xsi:schemLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0"
 >
+	
 	<servlet>
 		<servlet-name>Login</servlet-name>
 		<servlet-class>com.tb.servlets.Login</servlet-class>
@@ -51,11 +52,27 @@
 	</servlet-mapping>
 	
 	<servlet>
-		<servlet-name>Cooperative</servlet-name>
-		<servlet-class>com.tb.servlets.Cooperative</servlet-class>
+		<servlet-name>MyReservations</servlet-name>
+		<servlet-class>com.tb.servlets.MyReservations</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Cooperative</servlet-name>
-		<url-pattern>/cooperatives</url-pattern>
+		<servlet-name>MyReservations</servlet-name>
+		<url-pattern>/myReservations</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>History</servlet-name>
+		<servlet-class>com.tb.servlets.History</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>History</servlet-name>
+		<url-pattern>/history</url-pattern>
+	</servlet-mapping>
+	
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+		</jsp-property-group>
+	</jsp-config>
 </web-app>
